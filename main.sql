@@ -50,7 +50,7 @@ CREATE TABLE Attachments (
     FOREIGN KEY (user_id) REFERENCES Users(id) ON DELETE CASCADE
 );
 
--- Tarix (log) jadvali
+-- Log jadvali
 CREATE TABLE TicketHistory (
     id INT AUTO_INCREMENT PRIMARY KEY,
     ticket_id INT NOT NULL,
